@@ -266,3 +266,17 @@ a {
 a:hover {
   color: #08BAE3;
 }
+
+
+
+@media (max-width: 768px) {
+
+  a{
+    font-size: 16px;
+    margin-top: 50px;
+    
+    margin-right: -80px;
+    margin-left: -90px;
+  }
+
+}
