@@ -13,7 +13,17 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@media (max-width: 768px) {
 
+  a{
+    font-size: 16px;
+    margin-top: 50px;
+    
+    margin-right: -80px;
+    margin-left: -90px;
+  }
+
+}
 
 .title {
   font-family: 'Get Schwifty';                     
@@ -86,7 +96,7 @@ body {
   margin: 20px 10px;
   border-radius: 10px;
   align-items: flex-start;
-  background-image: url('./assets/img/cards-image.jpg');
+  background-color: #565042;
   background-size: cover;
 }
 
@@ -269,14 +279,3 @@ a:hover {
 
 
 
-@media (max-width: 768px) {
-
-  a{
-    font-size: 16px;
-    margin-top: 50px;
-    
-    margin-right: -80px;
-    margin-left: -90px;
-  }
-
-}
