@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      
         <h1 className='title'>Rick & Morty - Universe</h1>
         
         {
@@ -64,7 +64,7 @@ function App() {
            )           
         }
           
-      </header>            
+                 
     </div>
   )
 }
