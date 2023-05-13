@@ -19,6 +19,7 @@ const Pagination = ({info,pageNumber,setpageNumber}) => {
          activeClassName='active'         
          onPageChange={(data)=>setpageNumber(data.selected+1)}
          />
+        
     )
 
 }

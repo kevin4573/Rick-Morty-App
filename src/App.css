@@ -40,26 +40,28 @@
   color: #888;
 }
 
-
-.root {
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.img-home {
-  max-width: 100%;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .root {
-    max-width: 90%;
-  }
-  
+/*web*/
+@media (min-width: 769px) {
   .img-home {
-    max-width: 80%;
+    max-width: 20%;
     height: auto;
   }
 }
+
+ /*móviles */
+@media (max-width: 768px) {
+
+  .App {
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+
+  .img-home {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
 
 

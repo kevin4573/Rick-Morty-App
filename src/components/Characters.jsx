@@ -13,23 +13,19 @@ const Characters = ({ info,setBuscrar,pageNumber,setpageNumber,characters, setCh
   return (
     <>
       <h1 className="characters">Characters</h1>
-      <span className="back-home" onClick={clearState}>
-        Volver al inicio
-      </span>
-      <br /><br />      
       <Buscar  setBuscrar={setBuscrar} setpageNumber={setpageNumber}/>
       
         {          
          //hacemos Un if ternario para mostrar un mensaje cuando no hay personajes
           characters=="There is nothing here"
           ? (
-          //mostrar mensaje centrado en la pantalla con boostrap
           
             <div className="alert alert-info px-5 mt-2 " role="alert">
               <h6>No exite ese personaje!</h6>
             </div>                     
          
           ) : ( 
+            
       <div className="container-characters">
         {
         characters.map((character, index) => (
@@ -55,6 +51,7 @@ const Characters = ({ info,setBuscrar,pageNumber,setpageNumber,characters, setCh
                     <p className="deads">
                     {character.status}
                     </p>
+                    
                   </>
                 )}
                 
