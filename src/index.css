@@ -22,8 +22,8 @@ body {
   font-size: 60px;
   color: #08BAE3;
   text-shadow: 0px 0px 10px #FFF765, 0px 0px 20px #FFF765, 0px 0px 30px #FFF765, 0px 0px 40px #FFF765, 0px 0px 70px #FFF765, 0px 0px 80px #FFF765, 0px 0px 100px #FFF765, 0px 0px 150px #FFF765;
-  animation: electric 0.5s linear infinite;
-  -webkit-animation: electric 0.5s linear infinite;
+  animation: electric 3s linear infinite;
+  -webkit-animation: electric 3s linear infinite;
 }
 
 @keyframes electric {
